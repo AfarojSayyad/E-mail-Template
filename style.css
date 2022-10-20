@@ -1,0 +1,383 @@
+
+      .container-main {
+        display: block;
+        margin-left: 25%;
+        margin-right: 25%;
+        background-image: url('https://wallpapercave.com/wp/wp6030756.jpg');
+        justify-content: center;
+      }
+
+      body {
+        display: flex;
+        justify-content: center;
+        background-size: 600px;
+      }
+
+      .heading-nav {
+        font-size: 52px;
+        text-align: center;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        color: white;
+        padding-top: 30px;
+      }
+      .line {
+        margin:0 0 1em;
+        line-height:2em;
+        padding:0;
+        position:relative;
+        overflow:hidden;
+        text-align:center;
+        color: cornsilk;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+    }
+    .line:before,.line:after {
+        content:" ";
+        position:absolute;
+        top:50%;
+        margin-left:-120px;
+        height:2px;
+        width:100px;
+        border-top:1px solid #ffffff;
+    }
+    .line:after {
+        left:auto;
+        width:100px;
+        margin:0 0 0 1em;
+    }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      ul li {
+        list-style-type: none;
+      }
+
+      li a {
+        text-decoration: none;
+        color: #ffffff;
+        padding-right: 13px;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+
+      }
+
+      ul li {
+        list-style-type: none;
+      }
+
+      h1 {
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: 52px;
+        text-align: center;
+        padding: 40px 0;
+      }
+      
+      .button {
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        padding-bottom: 30px;
+      }
+
+      .home-button {
+        background-color: #50c3af;
+        color: white;
+        font-weight: 600;
+        width: 200px;
+        height: 40px;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        border-color: transparent;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+
+      }
+
+      .home-button:hover {
+        background-color: rgb(61, 97, 57);
+      }
+
+      .container-1 {
+        display: flex;
+        padding: 50px;
+        background-color: #eeeeef;
+        background-size: 100%;
+        justify-content: center;
+      }
+
+      .container-2 {
+        display: flex;
+        padding: 50px;
+        background-color: #f5f5f5;
+        background-size: 100%;
+        justify-content: center;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      .column {
+        float: left;
+        width: 33.33%;
+        padding: 20px;
+      }
+
+      .row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .child-container {
+        width: 50%;
+        float: left;
+        padding: 20px;
+      }
+
+      .container2-button {
+        background-color: #50c3af;
+        color: white;
+        font-weight: 600;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 10px;
+        border-color: transparent;
+      }
+
+      .container2-button:hover {
+        background-color: rgb(61, 97, 57);
+      }
+
+      .wrapper {
+        width: 100%;
+        position: relative;
+      }
+
+      .logo {
+        display: flex;
+        padding-left: 100px;
+      }
+
+      .container3-header-text {
+        font-size: 25px;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: 160px;
+      }
+
+      .container3-text {
+        padding: 5px 120px 30px 110px;
+        color: rgb(114, 111, 111);
+      }
+
+      .container4-link {
+        color: #50c3af;
+        background-color: transparent;
+        text-decoration: none;
+        font-weight: bold;
+      }
+
+      .container4-link:hover {
+        color: rgb(61, 97, 57);
+        background-color: transparent;
+        text-decoration: underline;
+      }
+
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      img {
+        height: auto;
+        max-width: 100%;
+        vertical-align: middle;
+        padding-left: 13px;
+      }
+
+      .cards {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cards_item {
+        display: flex;
+        padding: 1rem;
+      }
+
+      @media (min-width: 40rem) {
+        .cards_item {
+          width: 50%;
+        }
+      }
+
+      @media (min-width: 56rem) {
+        .cards_item {
+          width: 33.3333%;
+        }
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+      }
+
+      .card_content {
+        padding: 1rem;
+      }
+
+      h2 {
+        color: black;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        margin: 0px;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      p {
+        color: rgb(114, 111, 111);
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 1.25rem;
+        font-weight: 400;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      .box {
+        padding: 0 100px ;
+        box-sizing: border-box;
+        border-radius: 4px;
+        display: flex;
+      }
+
+      .box .imgbx {
+        width: 150px;
+        flex: 0 0 150px;
+      }
+
+      .box .imgbx img {
+        max-width: 150%;
+      }
+
+      .box .content {
+        padding-left: 100px;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+      }
+
+      .flex-d {
+        display: flex;
+      }
+
+      .logo {
+        width: 30%;
+        padding-bottom: 20px;
+      }
+      .readmore-button {
+        background-color: #d2d5da;
+        color: white;
+        font-weight: 600;
+        width: 100px;
+        height: 40px;
+        border-radius: 20px;
+        align-items: center;
+        text-align: center;
+        border-color: transparent;
+      }
+      .readmore-button:hover {
+        background-color: rgb(61, 97, 57);
+      }
+
+      footer {
+        background-color: #50c3af;
+        display: flex;
+        padding: 80px;
+        background-size: 100%;
+        justify-content: center;
+
+      }
+
+      div ul {
+        display: flex;
+        justify-content: center;
+      }
+
+      .f-link {
+        padding: 0px 30px 0px 30px;
+      }
+      .f-text {
+        color: cornsilk;
+        font-size: 18px;
+        text-align: center;
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;
+
+      }
+      span{
+        vertical-align:middle;
+        font-weight: 800; 
+        font-family: 'Alkalami', serif;
+        font-family: 'Great Vibes', cursive;
+        font-family: 'PT Sans', sans-serif;  font-size: 20px;
+      }
+      hr{
+        border: 0;
+        height: 1px;
+        background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+        background-image: -moz-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+        background-image: -ms-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+        background-image: -o-linear-gradient(left, #f0f0f0, #8c8c8c, #f0f0f0);
+      }
+      .fa-times{
+        color: white;
+      }
+      .fa-regular{
+        display: flex;
+        color: #50c3af;
+        padding-left: 85px;
+        justify-content: center;
+      }
+      .fa-headphones{
+        display: flex;
+        color: #50c3af;
+        padding-left: 85px;
+        justify-content: center;
+      }
+      .container-3 {
+        display: flex;
+        padding: 0 50px 0 50px;
+        background-color: #f5f5f5;
+        background-size: 100%;
+        justify-content: center;
+      }
+
+    
